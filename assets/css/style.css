@@ -132,7 +132,7 @@ header .nav-bar ul{
     height: fit-content;
 }
 .title-form{
-    margin-top: 14.5rem;
+    margin-top: 10.5rem;
     margin-left: 27.6rem;
  }
 
@@ -173,12 +173,12 @@ header .nav-bar ul{
 }
 
 .card-form1{
-    padding-top: 20.5rem;
-    padding-bottom: 14.5rem;
+    padding-top: 15.5rem;
+    padding-bottom: 10.5rem;
 }
 
 .card-form2{
-    padding-top: 14.5rem;
+    padding-top: 10.5rem;
 }
 
 .card {
@@ -241,7 +241,7 @@ header .nav-bar ul{
 /*sec2 end*/
 /*sec3*/
 .sec3{
-    margin: 14.5rem 0;
+    margin: 10.5rem 0;
 }
 .sec3-title{
     text-align: center;
@@ -378,7 +378,7 @@ header .nav-bar ul{
 
 .sec4-title-form{
     width: 40%;
-    margin-top: 14.5rem;
+    margin-top: 10.5rem;
     margin-left: 27.6rem;
 }
 
@@ -406,7 +406,7 @@ header .nav-bar ul{
     display: flex;
     width: 80%;
     height: 40rem;
-    margin: 14.5rem 0;
+    margin: 10.5rem 0;
     overflow: hidden;
 }
 
@@ -472,7 +472,7 @@ header .nav-bar ul{
     position: relative;
     width: 100%;
     min-height: 580px;
-    padding: 14.5rem 0;
+    padding: 10.5rem 0;
     z-index: 999;
 }
 
@@ -559,7 +559,7 @@ header .nav-bar ul{
 
 /*sec6*/
 .sec6 {
-    padding: 14.5rem 0;
+    padding: 10.5rem 0;
     background-color: #f8f8f8;
 }
 
