@@ -779,7 +779,76 @@ input[type="checkbox"] {
 
 /*footer end*/
 
-/* 반응형 Layout 1280, 1024, 768, 540, 348 */
+/* 반응형 Layout 1440, 1280, 1024, 768, 540, 348 */
+@media (max-width : 1440px){
+    .nav-bar ul li a {
+        font-size: 22px;
+    }
+
+    .logo img{
+        width: 90%;
+    }
+
+    .main-title {
+        margin: 11.2rem 0 14rem 20rem;
+    }
+
+    .container::after {
+        border-radius: 0 0 0 34em;
+    }
+
+    .cars {
+        top: 13%;
+        left: 51%;
+    }
+
+    .w-30 {
+        width: 40%;
+    }
+
+    .w-70 {
+        width: 60%;
+    }
+
+    .title-form {
+        margin-left: 20rem;
+    }
+
+    .sec2-content-form {
+        margin-right: 20rem;
+        gap: 2.4rem;
+    }
+
+    .icon .card-icon i {
+        font-size: 34px;
+    }
+
+    .card-icon {
+        width: 4.2rem;
+        height: 4.2rem;
+    }
+
+    .sec3 {
+        margin-bottom: 14.5rem;
+    }
+
+    .sec4-title-form {
+        margin-top: 0;
+        margin-left: 20rem;
+    }
+
+    .qna-form {
+        margin: 0;
+        margin-bottom: 14.5rem;
+    }
+
+    .sec6 {
+        padding: 0;
+        padding-bottom: 14.5rem;
+    }
+
+}
+
 @media(max-width:1280px){
     img {
         border-style: none;
@@ -796,7 +865,7 @@ input[type="checkbox"] {
         padding: 0px 15rem;
     }
 
-        .nav-bar ul li a {
+    .nav-bar ul li a {
         font-size: 20px;
         color: #fff;
         transition: 0.2s ease-in-out;
