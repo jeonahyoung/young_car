@@ -34,9 +34,6 @@ header .nav-bar ul{
     display: none;
     color: #fff;
 }
-
-
-
 /*nav end*/
 /*section 1*/
 .container{
@@ -872,8 +869,6 @@ input[type="checkbox"] {
     }
 
     /*sec1*/
-    
-
     .container::after {
         height: 100%;
         border-radius: 0 0 0 34em;
@@ -919,8 +914,8 @@ input[type="checkbox"] {
         padding: 1.5rem 3.2rem;
         font-size: 2.0rem;
     }
-
     /*sec1 end*/
+
     /*sec2*/
     .title-form {
         margin-top: 13.5rem;
@@ -984,9 +979,11 @@ input[type="checkbox"] {
         font-size: 38px;
     }
     /*sec2 end*/
+
     /*sec3*/
     .sec3{
-        margin: 13.5rem 0;
+        margin: 0;
+        margin-bottom: 13.5rem;
     }
     .sec3-title {
         text-align: center;
@@ -1061,7 +1058,7 @@ input[type="checkbox"] {
     /*sec3 end*/
     /*sec4*/
     .sec4-form{
-        height: 620px;
+        height: 465px;
     }
 
     .sec4-title-form .c-green {
@@ -1078,13 +1075,13 @@ input[type="checkbox"] {
 
     .sec4-title-form {
         width: 35%;
-        margin: 13.5rem 0 0 13.5rem;
+        margin-left: 13.5rem;
     }
 
     .qna-form {
         height: 33rem;
         width: 65%;
-        margin: 13.5rem 0;
+        margin-bottom: 13.5rem;
     }
     
     .qna{
@@ -1242,12 +1239,11 @@ input[type="checkbox"] {
 @media(max-width:1024px){
     /*nav*/
     header {
-
         height: 53px;
     }
 
-    img {
-        width: 61%;
+    .logo img {
+        width: 55%;
     }
 
     .nav-bar ul li a {
@@ -1518,6 +1514,20 @@ input[type="checkbox"] {
     .m-b-30 {
         margin-bottom: 2rem;
     }
+
+    .swiper-button-prev{
+        left: 5%;
+    }
+
+    .swiper-button-next{
+        right: 5%;
+    }
+
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after{
+        font-size: 30px;
+    }
     /*sec5 end*/
     /*sec6*/
     .sec6 {
@@ -1583,6 +1593,11 @@ input[type="checkbox"] {
         flex-shrink: 0;
     }
 
+    input[type="checkbox"] {
+        width: 12px;
+        height: 12px;
+    }
+
     .sec6-img img {
         left: 15%;
         top: 77%;
@@ -1595,7 +1610,7 @@ input[type="checkbox"] {
     }
 
     .footer-icon-left .footer-links li a {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }   
 
     .footer-info p {
@@ -1612,12 +1627,20 @@ input[type="checkbox"] {
         justify-content: inherit;
     }
 
+    .footer-links li {
+        padding: 0 11px;
+    }
+
     .navbar__icons li i {
         font-size: 32px;
     }
 
     .footer-links li:nth-child(n+2) {
         border-left: 1px solid #747474;
+    }
+
+    .footer-info-color01 {
+        font-size: 12px;
     }
 
     .footer-info-color02 li:nth-child(n+2) {
@@ -1658,7 +1681,7 @@ input[type="checkbox"] {
     .nav-bar {
         display: none;
         position: fixed;
-        top: 100px;
+        top: 8%;
         left: 0;
         width: 100%;
         background-color: #fff;
@@ -1693,11 +1716,11 @@ input[type="checkbox"] {
 
     /*sec1*/
     .sec1{
-        margin-bottom: 10rem;
+        margin: 7rem 0;
     }
-    
     .sec1 .d-flex{
         flex-direction:column;
+        /* margin: 7rem 0; */
     }
 
     .container {
@@ -1729,19 +1752,19 @@ input[type="checkbox"] {
     }
 
     .main-title h2 {
-        font-size: 4.0rem;
+        font-size: 3.5rem;
         color: #34c987;
     }
 
     .main-title p {
-        font-size: 2.0rem;
-        margin-bottom: 2.5rem;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
     }
 
     .btn-a{
         padding: 1.2rem 1.6rem;
         background-color: #fff;
-        font-size: 2.0rem;
+        font-size: 1.8rem;
         border: 1px solid #34c987;
         color: #34c987;      
     }
@@ -1754,7 +1777,7 @@ input[type="checkbox"] {
     .btn-b{
         padding: 1.2rem 1.6rem;
         background-color: #fff;
-        font-size: 2.0rem;
+        font-size: 1.8rem;
         border: 1px solid #34c987;
         color: #34c987;
     }
@@ -1766,8 +1789,8 @@ input[type="checkbox"] {
 
     .cars {
         position: relative;
-        left: 16%;
-        width: 75%;
+        left: 21%;
+        width: 66%;
         top: 8%;
         margin: 0;
     }
@@ -1780,7 +1803,7 @@ input[type="checkbox"] {
     /*sec01 end*/
     /*sec2*/
     .sec2{
-        padding : 10rem 0;
+        /* padding : 7rem 0; */
     }
 
     .sec2-form{
@@ -1791,31 +1814,36 @@ input[type="checkbox"] {
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        margin-bottom: 30px;
     }
 
     .title-form .c-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .title-form h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         margin: 0;
         margin-top: 1.5rem;
     }
 
     .sec2-subtitle {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 0;
         margin-top: 1.5rem;
     }
 
     .sec2-content-form {
-        margin: 4rem auto;
+        margin: 0rem auto;
     }
 
     .card {
         padding: 2rem;
         margin: 1.2rem 0
+    }
+
+    .card p{
+        font-size: 1.2rem;
     }
 
     .card-form1 {
@@ -1848,19 +1876,19 @@ input[type="checkbox"] {
     /*sec02 end*/
     /*sec3*/
     .sec3 {
-        margin: 10rem 0;
+        margin: 7rem 0;
     }
 
     .sec3-title {
-        margin-bottom: 4rem;
+        margin-bottom: 3.5rem;
     }
 
     .sec3-title .c-title {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     }
 
     .sec3-title h2 {
-        font-size: 40px;
+        font-size: 3.5rem;
     }
 
     .sec3-content {
@@ -1879,7 +1907,7 @@ input[type="checkbox"] {
     }
 
     .content-title h5 {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
     }
 
     .content-title img {
@@ -1889,6 +1917,7 @@ input[type="checkbox"] {
     .content-foot{
         margin-top: 10px;
     }
+    
     .content-img img {
         width: 70%;
         height: auto;
@@ -1918,13 +1947,13 @@ input[type="checkbox"] {
     }
 
     .btn-form a {
-        font-size: 20px;
+        font-size: 1.8rem;
         padding: 1rem 3rem;
     }
     /*sec3 end*/
     /*sec4*/
     .sec4 {
-        padding: 100px 0;
+        padding : 7rem 0;
         height: 100%;
     }
 
@@ -1941,15 +1970,16 @@ input[type="checkbox"] {
     }
 
     .sec4-title-form .c-green {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sec4-title-form h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        line-height: 130%;
     }
 
     .sec4-title-form p {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .qna-form{
@@ -1972,20 +2002,20 @@ input[type="checkbox"] {
     }
 
     .qna span {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .qna h5 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .qna-content {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
     /*sec4 end*/
     /*sec5*/
     .sec5-form{
-        padding: 100px 0;
+        /* margin: 7rem 0; */
     }
 
     .sec5-form::after {
@@ -1993,15 +2023,15 @@ input[type="checkbox"] {
     }
     
     .sec5-title>.c-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sec5-title h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
    
     .sec5-title p {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sec5-content {
@@ -2012,7 +2042,7 @@ input[type="checkbox"] {
     }
 
     .sec5-content1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: left;
         width: 80%;
         margin: 2rem 0 1rem;
@@ -2037,7 +2067,7 @@ input[type="checkbox"] {
     /*sec5 end*/
     /*sec6*/
     .sec6 {
-        padding: 10rem 0;
+        padding: 7rem 0;
     }
 
     .sec6-form {
@@ -2053,15 +2083,15 @@ input[type="checkbox"] {
     }
 
     .sec6-c-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sec6-title h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .sec6-title .p-3 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .sec6-img{
@@ -2089,7 +2119,7 @@ input[type="checkbox"] {
     }
 
     .sec6-content button {
-        font-size: 2rem;
+        font-size: rem;
         padding: 10px 15px;
     }
 
@@ -2106,6 +2136,10 @@ input[type="checkbox"] {
       .input-group input {
         padding: 2.2rem 1.6rem;
         font-size: 1.4rem;
+    }
+
+    .input_check{
+        font-size: 1.5rem;
     }
     /*sec6 end*/
     /*footer*/
@@ -2242,6 +2276,10 @@ input[type="checkbox"] {
         gap: 1.5rem;
         width: 74%;
     }
+
+    .sec2-subtitle {
+        font-size: 1.5rem;
+    }
     
     .card {
         height: 200px;
@@ -2299,7 +2337,7 @@ input[type="checkbox"] {
     }
 
     .content-foot p {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     
@@ -2439,7 +2477,7 @@ input[type="checkbox"] {
     }
 
     .sec6-content .sec6-c-st2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin-bottom: 2.5rem;
         letter-spacing: 0.3px;
     }
@@ -2450,12 +2488,12 @@ input[type="checkbox"] {
 
     .input-group input {
         padding: 1rem 1rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     input::placeholder {
         color: #747474;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
 
     .sec6-content button {
@@ -2463,8 +2501,16 @@ input[type="checkbox"] {
         font-size: 1.5rem;
         padding: 8px 13px;
     }
+
+    .input_check {
+        font-size: 1.2rem;
+    }
     /*sec6 end*/
     /*footer*/
+    .footer{
+        padding: 0 60px;
+    }
+
     .footer-icon-right {
         display: none;
     }
@@ -2472,6 +2518,14 @@ input[type="checkbox"] {
     .footer-icon-left img {
         margin: 0;
         width: 17%;
+    }
+
+    .footer-icon-left {
+        margin: 0;
+    }
+
+    .footer-info {
+        margin-left: 0px;
     }
 
 }
@@ -2498,7 +2552,7 @@ input[type="checkbox"] {
     /*header end*/
     /*sec1*/
     .sec1 {
-        margin-bottom: 5rem;
+        margin: 5rem;
     }
 
     .main-title {
@@ -2561,16 +2615,12 @@ input[type="checkbox"] {
         margin: 0;
     } 
 
-    br {
-        display: none;
-    }
-
     .card1, .card3 {
         margin-bottom: 1rem;
     }
 
     .card h5 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .card p {
@@ -2753,7 +2803,6 @@ input[type="checkbox"] {
         padding: 50px 0;
     }
 
-
     .sec6-c-title {
         font-size: 1.3rem;
     }
@@ -2807,9 +2856,10 @@ input[type="checkbox"] {
       }
 
     .sec6-content button {
-        margin: 15px auto;
+        margin: 0 auto;
         font-size: 1.3rem;
         padding: 6px 10px;
+        margin-top: 20px;
     }
 
     .input[type="checkbox"] {
@@ -2819,7 +2869,8 @@ input[type="checkbox"] {
     /*sec6 end*/
     /*footer*/
     .footer {
-        padding-top: 0;
+        padding: 0 20px;
+        margin: 20px 0;
     }
 
     .footer-icon-left .footer-links {
@@ -2841,7 +2892,7 @@ input[type="checkbox"] {
     .footer-links li {
         position: relative;
         padding-right: 8px;
-        margin-right: 8px;
+        line-height: 1;
     }
 
     .footer-links li:not(:last-child)::after {
@@ -2854,7 +2905,7 @@ input[type="checkbox"] {
     }
 
     .footer-info {
-        margin-left: 8rem;
+        /* margin-left: 8rem; */
     }
 
     .footer-info-color02 span{
