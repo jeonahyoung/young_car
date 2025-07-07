@@ -432,7 +432,7 @@ header .nav-bar ul{
     margin-top: 2rem;
 }
 
-.qna:hover .qna span{
+.qna:hover span{
     color: #fff;
 }
 
@@ -777,7 +777,76 @@ input[type="checkbox"] {
 /*footer end*/
 
 /* 반응형 Layout 1440, 1280, 1024, 768, 540, 348 */
+
+@media (max-width : 1843px){
+    .main-title {
+        margin: 11.2rem 16rem 15rem;
+        width: 43%;
+    }
+    .cars {
+        left: 52%;
+        width: 34%;
+    }
+
+    .container::after {
+        border-radius: 0 0 0 37em;
+    }
+    .title-form {
+        margin-left: 15rem;
+        width: 53%;
+    }
+
+    .sec2-content-form {
+        margin-right: 15rem;
+        padding-left: 0rem;
+    }
+
+    .card .icon {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+
+    .icon .card-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .icon .card-icon i {
+        font-size: 37px;
+    }
+
+    
+
+    .sec4-title-form {
+        margin-left: 15rem;
+    }
+
+    .sec4-title-form {
+        width: 56%;
+    }
+
+    .qna-form .swiper-slide{
+        width: 366px !important;
+    }
+
+    .sec6-title {
+        margin-left: 15rem;
+    }
+
+    .sec6-content-form{
+        margin-right: 15rem;
+    }
+
+    .footer {
+        margin: 5rem 15rem;
+    }
+}
+
 @media (max-width : 1440px){
+    header{
+        padding: 0 15rem;
+    }
+
     .nav-bar ul li a {
         font-size: 22px;
     }
@@ -787,16 +856,28 @@ input[type="checkbox"] {
     }
 
     .main-title {
-        margin: 11.2rem 0 14rem 20rem;
+        margin: 11.2rem 0 14rem 15rem;
     }
 
+    .main-title h2{
+        font-size: 4.2rem;
+    }
+
+    .main-title p {
+        font-size: 2rem;
+    }
+
+    .btn-a, .btn-b {
+        font-size: 2rem;
+    }
     .container::after {
         border-radius: 0 0 0 34em;
     }
 
     .cars {
-        top: 13%;
-        left: 51%;
+        width: 37%;
+        top: 10%;
+        left: 50%;
     }
 
     .w-30 {
@@ -808,43 +889,213 @@ input[type="checkbox"] {
     }
 
     .title-form {
-        margin-left: 20rem;
+        margin-left: 15rem;
+    }
+
+    .title-form .c-title {
+        font-size: 2rem;
+    }
+
+    .title-form h2 {
+        font-size: 4.2rem;
+        line-height: initial;
+    }
+
+    .sec2-subtitle {
+        font-size: 2rem;
     }
 
     .sec2-content-form {
-        margin-right: 20rem;
+        margin-right: 15rem;
         gap: 2.4rem;
+        padding-left: 0;
+    }
+
+    .card-form1 .card, .card-form2 .card {
+        height: fit-content;
+    }
+    
+    .card{
+        padding: 3.5rem;
+    }
+
+    .card h5 {
+        font-size: 2rem;
+    }
+
+    .icon {
+        width: 6rem;
+        height: 6rem;
     }
 
     .icon .card-icon i {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .card-icon {
-        width: 4.2rem;
-        height: 4.2rem;
+        width: 4rem;
+        height: 4rem;
+        border: 3px solid #fff;
     }
 
     .sec3 {
         margin-bottom: 14.5rem;
     }
 
+    .sec3-title .c-title {
+        font-size: 2rem;
+    }
+
+    .sec3-title h2 {
+        font-size: 4.2rem;
+    }
+
+    .content-title h5 {
+        font-size: 2rem;
+    }
+
+    .content-f-button h5 {
+        font-size: 2rem;
+    }
+
+    .content-box {
+        padding: 4rem 3rem;
+    }
+
+    .btn-form a {
+        font-size: 2rem;
+    }
+
     .sec4-title-form {
         margin-top: 0;
-        margin-left: 20rem;
+        margin-left: 15rem;
+        width: 46%;
+    }
+
+    .sec4-title-form p {
+        font-size: 2rem;
+    }
+
+    .sec4-title-form .c-green {
+        font-size: 2rem;
+    }
+
+    .sec4-title-form h2 {
+        font-size: 4.2rem;
     }
 
     .qna-form {
         margin: 0;
         margin-bottom: 14.5rem;
+        width: 75%;
+    }
+
+    .qna {
+        width: 94%;
+        height: 350px;
+        padding: 3.5rem;
+    }
+
+    .qna span {
+        font-size: 2rem;
+    }
+
+    .qna h5 {
+        font-size: 2rem;
+    }
+
+    .qna-content {
+        font-size: 1.6rem;
+        margin: 4rem auto 0;
+    }
+
+    .sec5-title>.c-title {
+        font-size: 2rem;
+    }
+
+    .sec5-title h2 {
+        font-size: 4.2rem;
+    }
+
+    .sec5-title p {
+        font-size: 2rem;
+    }
+
+    .sec5-content1 {
+        font-size: 2rem;
+        margin: 5rem;
+    }
+
+    .sec5-content2{
+        margin: 5rem 5rem 5rem 0;
+    }
+
+    .m-b-10 {
+        margin-bottom: 3rem;
     }
 
     .sec6 {
-        padding: 0;
-        padding-bottom: 14.5rem;
+        padding: 10.5rem 0
     }
 
-}
+    .sec6-title {
+        margin-left: 15rem;
+    }
+
+    .sec6-c-title {
+        font-size: 2rem;
+    }
+
+    .sec6-title h2 {
+        font-size: 4.2rem;
+    }
+    
+    .sec6-title .p-3 {
+        font-size: 2rem;
+    }
+
+    .sec6-img img {
+        top: 62%;
+    }
+
+    .sec6-content-form {
+        margin-right: 15rem;
+        width: 67%;
+    }
+
+    .sec6-content {
+        font-size: 1.6rem;
+        padding: 3.5rem 3rem;
+    }
+
+    .sec6-content .sec6-c-st1 {
+        font-size: 2rem;
+    }
+
+    .sec6-content .sec6-c-st2 {
+        margin-bottom: 2.5rem;
+    }
+
+    .sec6-content button {
+        font-size: 2rem;
+        margin: 2.5rem auto 0 auto;
+    }
+
+    .input-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .input-group input {
+        height: 85%;
+    }
+
+    .footer {
+        margin: 5rem 15rem;
+    }
+    .footer-links li {
+        font-size: 1.8rem;
+    }
+} 
 
 @media(max-width:1280px){
     img {
@@ -1652,7 +1903,6 @@ input[type="checkbox"] {
     }
 
 }
-
 
 @media(max-width:768px){
     /*nav*/
@@ -2529,7 +2779,6 @@ input[type="checkbox"] {
     }
 
 }
-
 
 @media(max-width:348px){
     /*header*/
